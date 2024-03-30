@@ -1,0 +1,23 @@
+{
+    "name": "wedevs-academy/wp-post-view-count",
+    "description": "Show post view count into any post content page",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "WedevsAcademy\\WpPostViewCount\\": "inc/"
+        },
+        "files": [
+            "inc/Functions.php"
+          ]
+    },
+    "authors": [
+        {
+            "name": "ksthannan",
+            "email": "abdulhannan.kum@gmail.com"
+        }
+    ],
+    "require": {}
+}
